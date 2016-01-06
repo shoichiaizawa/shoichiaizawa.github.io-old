@@ -12,3 +12,5 @@ github_username: shoichiaizawa
 # Build settings
 markdown: kramdown
 markdown_ext: md,mkd,mkdn,mdown,markdown
+
+exclude: [README.md]
