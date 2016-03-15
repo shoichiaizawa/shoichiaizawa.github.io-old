@@ -18,7 +18,7 @@ markdown: kramdown
 kramdown:
   input: GFM
 markdown_ext: md,mkd,mkdn,mdown,mkdown,markdown
-highlighter: pygments # (default: rouge, for Jekyll 3.0+ but not for GitHub Pages)
+highlighter: rouge # (default: rouge, for Jekyll 3.0+)
 
 # paginate: 5         # requires jekyll-paginate gem for Jekyll 3
 
