@@ -24,10 +24,10 @@ This is a list of things I want to achieve in order to improve my Jekyll site
     - (2016-03-15) [**GitHub Pages now only supports Rouge**](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0)
 - [x] Add **MathJax** support
     - (2016-03-15) Insert a `script` in the `head` section element pointing to MathJax CDN
+- [x] (2016-04-18) Add **Disqus** comments for posts
 - [ ] Get a custom domain
 - [ ] Change the theme for code blocks, e.g. **Solarized**, etc
 - [ ] Design a unique site instead of using the default theme
-- [ ] Add **Disqus** comments for posts
 - [ ] Add **Google Analytics** to the site
 - [ ] Find out how to enable line numbers when using a fenced code block
 - [ ] Add English and Japanese pages support

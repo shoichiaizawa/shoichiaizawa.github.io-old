@@ -11,7 +11,7 @@ permalink: pretty     # (default: date)
 name:
 email:
 github_username: shoichiaizawa
-twitter_username:
+twitter_username: shoichiaizawa
 
 # Build settings
 markdown: kramdown
