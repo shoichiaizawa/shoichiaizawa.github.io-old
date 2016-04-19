@@ -13,6 +13,9 @@ email:
 github_username: shoichiaizawa
 twitter_username: shoichiaizawa
 
+# Disqus comments configuration (leave blank to disable comments)
+disqus_shortname: 'shoichiaizawa'
+
 # Build settings
 markdown: kramdown
 kramdown:
