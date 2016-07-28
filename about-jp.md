@@ -1,9 +1,9 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /jp/about/
 ref: about
-lang: en
+lang: jp
 ---
 
-TBA
+テスト

@@ -1,14 +1,32 @@
 # Site settings
-title: Yet Another Useless Static Site
-description: > # this means to ignore newlines until "baseurl:"
-  TBA
+title:
+  en: Yet Another Useless Static Site
+  jp: 巷でよくある静的サイト
+
+description:
+  en: Shoichi AIZAWA's personal website (under construction)
+  jp: あいざわしょういちのウェブサイト（工事中）
+
+index:
+  en:
+  jp: index-jp.html
+
+basepath:
+  en:
+  jp: /jp/
+
+feed:
+  en: /feed.xml
+  jp: /feed-jp.xml
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+
 date_format: "%-d %B %Y"
 permalink: /:title     # (default: date)
 
 # author:
-name:
+name: Shoichi AIZAWA
 email:
 github_username: shoichiaizawa
 twitter_username: shoichiaizawa

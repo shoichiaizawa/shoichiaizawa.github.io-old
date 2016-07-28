@@ -1,18 +1,19 @@
 ---
 layout: default
 ref: index
-lang: en
+permalink: /jp/
+lang: jp
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">最新の記事</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in site.posts %}
+    {% for post in posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: site.date_format }}</span>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -21,6 +22,6 @@ lang: en
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe"><a href="{{ "/feed-jp.xml" | prepend: site.baseurl }}">RSSを購読する</a></p>
 
 </div>
